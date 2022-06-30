@@ -1,10 +1,32 @@
 # CRIAR UMA LISTA
-lista_numeros = [1, 2, 3,4]
+lista_numeros = [1, 2, 3, 4]
 lista_animais = ['cachorro', 'gato', 'elefante']
+
+#Imprimir o tipo
+print(type(lista_numeros)) #<class 'list'>
+print(type(lista_animais)) #<class 'list'>
+
+#Imprimir a lista
 print(lista_numeros)
 print(lista_animais)
 
-# IMPRIMINDO A LISTA
+#adicionar um elemento
+lista_numeros.append(5)
+lista_numeros.append(5) #Lista aceita repetição
+print(lista_numeros)
+
+#verificar tamanho da lista
+print(len(lista_numeros))
+
+#alterando elemento
+lista_numeros[5] = 6
+print(lista_numeros[5])
+print(lista_numeros)
+#ou
+lista_numeros.insert(6, -700)
+print(lista_numeros)
+
+# IMPRIMINDO A LISTA - percorrendo os elementos
 for x in lista_numeros:
     print(x)
 # MANIPULAR UMA LISTA
