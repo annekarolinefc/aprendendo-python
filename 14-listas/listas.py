@@ -61,6 +61,14 @@ print(lista_animais)
 lista_animais.remove('elefante')
 print(lista_animais)
 
+
+# Lista para string
+minhaLista = ['Python', 'é', 'muito', 'legal']
+print(minhaLista)
+minhaString = ' '.join(minhaLista) #separador de espaço + join + o elemento dentro do ()
+print(minhaString)
+
+
 # TUPLAS - imutável
 
 # INTERAGIR COM TUPLAS
