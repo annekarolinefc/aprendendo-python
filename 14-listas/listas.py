@@ -51,10 +51,12 @@ else:
     #adicionando elemento
 lista_animais.append('lobo')
 print(lista_animais)
-    #removendo elemento
+#removendo elemento
+#pop sem argumento
 lista_animais.pop()
 print(lista_animais)
 
+#pop com argumento
 lista_animais.pop(0)
 print(lista_animais)
 
