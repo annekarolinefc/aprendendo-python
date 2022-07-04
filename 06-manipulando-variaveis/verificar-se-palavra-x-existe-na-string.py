@@ -8,3 +8,9 @@ if palavra not in frase:
     print("A frase não contem a palavra: " + palavra)
 else:
     print("A frase contem a palavra: " + palavra)
+    
+# Outra alternativa para fazer:
+if frase.count(palavra) == 0:
+    print("A frase não contem a palavra: " + palavra)
+else:
+    print("A frase contem a palavra: " + palavra)
