@@ -1,0 +1,7 @@
+Quais são as sequencias?
+    strings, tuplas, listas e range.
+Principais diferenças entre as sequências do tipo list e tuple?
+    List usa colchetes [] e é mutável
+    Tuple usa parenteses () e é imutável
+Quando usar tuplas?
+    Valores fixos como nome de meses, estação de ano, nome de estados...
