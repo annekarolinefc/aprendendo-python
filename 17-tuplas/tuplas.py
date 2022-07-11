@@ -9,4 +9,6 @@ print(nomes[0]) # Ana
 print(nomes[1:2]) # Bia
 print(nomes[1:-1]) # Bia e Gui
 
-
+# Tamanho da tupla
+print(len(nomes))
+ 
